@@ -21,7 +21,11 @@ import model.CustomerService;
 )
 public class LoginServlet extends HttpServlet {
 	private CustomerService customerService;
+<<<<<<< HEAD
 	@Override  
+=======
+	@Override
+>>>>>>> branch 'master' of https://github.com/EEIT10402/RemoteRepo1207.git
 	public void init() throws ServletException {
 		ApplicationContext context = (ApplicationContext)
 				this.getServletContext().getAttribute(WebApplicationContext.ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE);

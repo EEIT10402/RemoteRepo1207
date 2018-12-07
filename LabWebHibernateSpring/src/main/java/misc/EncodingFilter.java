@@ -18,7 +18,11 @@ public class EncodingFilter implements Filter {
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
 		this.filterConfig = filterConfig;
+<<<<<<< HEAD
 	}  
+=======
+	}
+>>>>>>> branch 'master' of https://github.com/EEIT10402/RemoteRepo1207.git
 	@Override
 	public void doFilter(ServletRequest req,
 			ServletResponse resp, FilterChain chain) throws IOException, ServletException {
