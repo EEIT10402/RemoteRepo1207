@@ -36,7 +36,7 @@ public class OpenSessionInViewFilter implements Filter {
 			sessionFactory.getCurrentSession().getTransaction().rollback();
 			chain.doFilter(request, response);
 		}finally {
-			System.out.println("錯誤訊息");
+			System.out.println("嚴重錯誤訊息");
 		}
 	}
 	@Override
