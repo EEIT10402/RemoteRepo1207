@@ -21,7 +21,7 @@ import model.CustomerService;
 )
 public class LoginServlet extends HttpServlet {
 	private CustomerService customerService;
-	@Override 
+	@Override  
 	public void init() throws ServletException {
 		ApplicationContext context = (ApplicationContext)
 				this.getServletContext().getAttribute(WebApplicationContext.ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE);
