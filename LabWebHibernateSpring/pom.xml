@@ -11,6 +11,11 @@
 <!-- 這是pom.xml -->
 =======
 
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/EEIT10402/RemoteRepo1207.git
+=======
+
+
 >>>>>>> branch 'master' of https://github.com/EEIT10402/RemoteRepo1207.git
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
