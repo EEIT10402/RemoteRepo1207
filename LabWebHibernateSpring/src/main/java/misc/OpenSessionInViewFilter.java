@@ -23,7 +23,11 @@ public class OpenSessionInViewFilter implements Filter {
 		ApplicationContext context = (ApplicationContext)
 				filterConfig.getServletContext().getAttribute(WebApplicationContext.ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE);
 		sessionFactory = (SessionFactory) context.getBean("sessionFactory");
+<<<<<<< HEAD
+	}  
+=======
 	}
+>>>>>>> branch 'master' of https://github.com/EEIT10402/RemoteRepo1207.git
 	@Override
 	public void doFilter(ServletRequest request,
 			ServletResponse response, FilterChain chain) throws IOException, ServletException {
