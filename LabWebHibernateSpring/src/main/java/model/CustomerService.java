@@ -15,7 +15,11 @@ public class CustomerService {
 		if(bean!=null) {
 			if(password!=null && password.length()!=0) {
 				byte[] temp = password.getBytes();	//使用者輸入
-				byte[] pass = bean.getPassword();	//資料庫抓出
+
+				byte[] pass = bean.getPassword();	//資料庫抓出來唷
+
+				//資料庫抓出
+
 				if(Arrays.equals(temp, pass)) {
 					return bean;
 				}
