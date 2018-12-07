@@ -15,7 +15,11 @@ public class CustomerService {
 		if(bean!=null) {
 			if(password!=null && password.length()!=0) {
 				byte[] temp = password.getBytes();	//使用者輸入
+<<<<<<< HEAD
 				byte[] pass = bean.getPassword();	//資料庫抓出來唷
+=======
+				byte[] pass = bean.getPassword();	//資料庫抓出
+>>>>>>> branch 'master' of https://github.com/EEIT10402/RemoteRepo1207.git
 				if(Arrays.equals(temp, pass)) {
 					return bean;
 				}

@@ -7,7 +7,11 @@
     <version>1.0</version>
     <name>LabWeb</name>
     <url>http://maven.apache.org</url>
+<<<<<<< HEAD
 <!-- 這是pom.xml -->
+=======
+
+>>>>>>> branch 'master' of https://github.com/EEIT10402/RemoteRepo1207.git
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java-version>1.8</java-version>

@@ -1,3 +1,9 @@
 /.settings/
+<<<<<<< HEAD
 /.project
 /.classpath
+=======
+/.classpath
+/.project
+/target/
+>>>>>>> branch 'master' of https://github.com/EEIT10402/RemoteRepo1207.git
