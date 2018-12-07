@@ -23,7 +23,7 @@ public class OpenSessionInViewFilter implements Filter {
 		ApplicationContext context = (ApplicationContext)
 				filterConfig.getServletContext().getAttribute(WebApplicationContext.ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE);
 		sessionFactory = (SessionFactory) context.getBean("sessionFactory");
-	}
+	}  
 	@Override
 	public void doFilter(ServletRequest request,
 			ServletResponse response, FilterChain chain) throws IOException, ServletException {
